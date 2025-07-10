@@ -151,3 +151,34 @@ header {
     color: rgba(0, 0, 0, 0.5);
     font-family: "Inter", sans-serif;
 }
+
+/* contact section */
+input,
+textarea {
+    background-color: #ffffff;
+    color: rgb(46, 105, 255);
+    font-weight: 500;
+    border: none;
+    margin-top: 15px;
+    padding: 20px;
+    font-family: "Courier New", Courier, monospace;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 0;
+}
+
+form button {
+    width: 100%;
+    text-align: center;
+}
