@@ -191,6 +191,26 @@ form button {
     text-align: center;
 }
 
+/* focus section */
+.focus-section {
+    background-color: white;
+    border-radius: 14px;
+    padding: 60px 0;
+}
+.focus-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.focus-card h1 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
 /* footer section */
 
 footer {
